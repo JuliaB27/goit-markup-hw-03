@@ -107,19 +107,14 @@ image {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    height: 120px;
-      
+    margin: 0 auto;  
 }
 
  .main-section {
-    text-align: center;
     background-color: #2E2F42;
     color:#FFFFFF;  
-    min-width: 1440px;
-    height: 600px;
     padding: 188px 0;
-    padding-left: 472px;
-
+    
 }
  .main-btn {
     font-family: "Roboto", sans-serif;
@@ -132,22 +127,13 @@ image {
     cursor: pointer;
     border-radius: 4px;
     border: none;
-    padding: 188px 0;
-    min-width: 169px;
-    min-height: 56px;
     padding: 16px 32px;
-    display: block;
-    height: 56px;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    
-    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
  }
- .hero-container {
 
+ .hero-container {
+    text-align: center;
  }
 
 .main-btn:hover, .main-btn:focus {
@@ -186,8 +172,6 @@ image {
     width: calc((100% - 72px) / 4);
     margin-top: 120px;
     margin-bottom: 120px;
-    
- 
 }
 
 /*---Section2---*/
@@ -213,7 +197,6 @@ image {
     height: 780px;
     left: 0px;
     top: 1668px;
-    padding: 120px 0;
 }
 
 .section-team-item {
@@ -236,7 +219,8 @@ image {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;    
+    color: #2E2F42; 
+    margin-bottom: 8px;   
 }
 
 .section-team-text {
@@ -246,6 +230,7 @@ image {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .section-team-list {
     width: calc((100% - 72px) / 4);
@@ -258,36 +243,34 @@ image {
     align-items: center;
     padding: 0px 0px 32px;
     gap: 32px;
-
-    /*position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1780px;*/
-
-
-/* WHITE
-
-Header background, team card background
-*/
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+.container-name {
+    text-align: center;
+    padding: 32px 16px;
+    
 }
 
 /*--Footer--*/
 
 .footer {
-    height: 312px;
+    
+    padding: 100px 0
+}
+.link-logo {
+    display: inline-block;
+    
 }
 
 .logo-footer-text {
     color: #F4F4FD;
 }
 .footer-text {
-    padding-top: 100px;
+    padding-top: 8px;
     width: 264px;
-    height: 112px;
+    
 }
 
 /*--Card Set---*/
@@ -358,17 +341,30 @@ Header background, team card background
 
 /*---BUTTON---*/
 
+.section-btn {
+    padding: 96px 0 120px;
+}
+.button-list {
+    justify-content: center;
+    gap: 24px;
+}
+
 button {
     display: flex;
+    
+    padding: 12px 24px;
     color: var(--button-color);
     background-color: var(--background-color);
     cursor: pointer;
-    gap: 24px;
+    
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .section-item-btn:hover, .section-item-btn:focus {
    color: #FFFFFF;
    background-color: #404BBF;
+   border: 1px solid transparent;
 }
 
 .section-item-btn {
@@ -383,6 +379,10 @@ button {
 
 
 /*---IMAGES---*/
+
+.section-item-pic {
+    /*display: block;*/
+}
  
 .img-subtitle {
     font-weight: 500;
@@ -397,6 +397,18 @@ button {
     color: #434455;
 }
 
+.section-list-pic {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    
+}
+.section-item-pic {
+   
+    border: 1px solid #E7E9FC;
+    width: calc((100% - 48px)/3);
+}
 /*--Footer--*/
 
 .footer {

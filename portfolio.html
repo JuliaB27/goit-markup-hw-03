@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./theory/modern-normalize.css">
+    <link rel="stylesheet" href="./theory/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,138 +43,160 @@
       
       <section class="section-btn">
         <div class="container">
-          <h1 hidden>button</h1>
-          <ul class="button-list list">
-            <li class="btn-list">
-              <button type="button" class="section-item-btn">All</button>
-            </li>
-            <li class="btn-list">
-              <button type="button" class="section-item-btn">Web Site</button>
-            </li>
-            <li class="btn-list">
-              <button type="button" class="section-item-btn">App</button>
-            </li>
-            <li class="btn-list">
-              <button type="button" class="section-item-btn">Design</button>
-            </li>
-            <li class="btn-list">
-              <button type="button" class="section-item-btn">Marketing</button>
-            </li>
-          </ul>
-        </div>
+          <div class="container-btn container">
+            <h1 hidden>button</h1>
+            <ul class="button-list list">
+              <li class="btn-list">
+                <button type="button" class="section-item-btn">All</button>
+              </li>
+              <li class="btn-list">
+                <button type="button" class="section-item-btn">Web Site</button>
+              </li>
+              <li class="btn-list">
+                <button type="button" class="section-item-btn">App</button>
+              </li>
+              <li class="btn-list">
+                <button type="button" class="section-item-btn">Design</button>
+              </li>
+              <li class="btn-list">
+                <button type="button" class="section-item-btn">Marketing</button>
+              </li>
+            </ul>
+          </div>
+        
        
       
     <!--IMAGES-->
     
       
-        <div class="container">
-          <ul class="section-list list link card-set" >
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                 <img class="section-item-img"
-                  src="./images/row-1/img-2.jpg"
-                  alt="screen-saver"
-                  width="360"
-                  height="300"/>
-                  <h2 class="img-subtitle">Banking App Interface Concept</h2>
-                  <p class="img-text">App</p>
-                </a>
-              </li>
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img"
-                    src="./images/row-1/img-1.jpg"
-                    alt="telephone"
+        
+          <div class="container-img container">
+            <ul class="section-list-pic list link card-set" >
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                   <img class="section-item-img"
+                    src="./images/row-1/img-2.jpg"
+                    alt="screen-saver"
                     width="360"
                     height="300"/>
-                  <h2 class="img-subtitle">Cashless Payment</h2>
-                  <p class="img-text">Marketing</p>
-                </a>
-              </li>
-          
-          
-               <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img"
-                    src="./images/row-1/img.jpg"
-                    alt="computer"
-                    width="360"
-                    height="300"/>
-                  <h2 class="img-subtitle">Meditation App</h2>
-                  <p class="img-text">App</p>
-                </a>
-              </li>
-          
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                    <img class="section-item-img link"
-                      src="./images/row-2/img-2.jpg"
-                      alt="taxi"
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Banking App Interface Concept</h2>
+                      <p class="img-text">App</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img"
+                      src="./images/row-1/img-1.jpg"
+                      alt="telephone"
                       width="360"
                       height="300"/>
-                    <h2 class="img-subtitle">Taxi Service</h2>
-                    <p class="img-text">Marketing</p>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Cashless Payment</h2>
+                      <p class="img-text">Marketing</p>
+                    </div>
                   </a>
-              </li>
-          
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img link"
-                    src="./images/row-2/img-1.jpg"
-                    alt="screen"
+                </li>
+            
+            
+                 <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img"
+                      src="./images/row-1/img.jpg"
+                      alt="computer"
+                      width="360"
+                      height="300"/>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Meditation App</h2>
+                      <p class="img-text">App</p>
+                    </div>
+                  </a>
+                </li>
+            
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                      <img class="section-item-img link"
+                        src="./images/row-2/img-2.jpg"
+                        alt="taxi"
+                        width="360"
+                        height="300"/>
+                      <div class="container-img-text">
+                        <h2 class="img-subtitle">Taxi Service</h2>
+                        <p class="img-text">Marketing</p>
+                      </div>
+                    </a>
+                </li>
+            
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img link"
+                      src="./images/row-2/img-1.jpg"
+                      alt="screen"
+                      width="360"
+                      height="300"/>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Screen Illustrations</h2>
+                      <p class="img-text">Design</p>
+                    </div>
+                  </a>
+                </li>
+            
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img link"
+                    src="./images/row-2/img.jpg"
+                    alt="student"
                     width="360"
                     height="300"/>
-                  <h2 class="img-subtitle">Screen Illustrations</h2>
-                  <p class="img-text">Design</p>
-                </a>
-              </li>
-          
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img link"
-                  src="./images/row-2/img.jpg"
-                  alt="student"
-                  width="360"
-                  height="300"/>
-                  <h2 class="img-subtitle">Online Courses</h2>
-                  <p class="img-text">Marketing</p>
-                </a>
-              </li>
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img link"
-                  src="./images/row-3/instagram.jpg"
-                  alt="Instagram"
-                  width="360"
-                  height="300"/>
-                  <h2 class="img-subtitle">Instagram Stories Concept</h2>
-                  <p class="img-text">Design</p>
-                </a>
-              </li>
-          
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img link"
-                    src="./images/row-3/organic_food.jpg"
-                    alt="organic_food"
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Online Courses</h2>
+                      <p class="img-text">Marketing</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img link"
+                    src="./images/row-3/instagram.jpg"
+                    alt="Instagram"
                     width="360"
                     height="300"/>
-                  <h2 class="img-subtitle">Organic Food</h2>
-                  <p class="img-text">Web Site</p>
-                </a>
-              </li>
-              <li class="section-item link card-set-item">
-                <a class="link" href="">
-                  <img class="section-item-img link"
-                    src="./images/row-3/coffee.jpg"
-                    alt="coffee"
-                    width="360"
-                    height="300"/>
-                  <h2 class="img-subtitle">Fresh Coffee</h2>
-                  <p class="img-text">Web Site</p>
-                </a>
-              </li>
-            </ul>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Instagram Stories Concept</h2>
+                      <p class="img-text">Design</p>
+                    </div>
+                  </a>
+                </li>
+            
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img link"
+                      src="./images/row-3/organic_food.jpg"
+                      alt="organic_food"
+                      width="360"
+                      height="300"/>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Organic Food</h2>
+                      <p class="img-text">Web Site</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="section-item-pic link card-set-item">
+                  <a class="link" href="">
+                    <img class="section-item-img link"
+                      src="./images/row-3/coffee.jpg"
+                      alt="coffee"
+                      width="360"
+                      height="300"/>
+                    <div class="container-img-text">
+                      <h2 class="img-subtitle">Fresh Coffee</h2>
+                      <p class="img-text">Web Site</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+          </div>
         </div>
     
     </section>
