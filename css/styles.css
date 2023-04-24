@@ -8,6 +8,8 @@
 --main-background-color:#E5E5E5;
 --button-color: #4d5ae5;
 --white-background-color: #ffffff;
+--indent: 24px;
+--items: 3;
 }
 
 body {
@@ -106,7 +108,7 @@ image {
     text-align: center;
     background-color: #2E2F42;
     color:#FFFFFF;  
-    width: 1440px;
+   /* min-width: 1440px;*/
     height: 600px;
     padding-top: 188px;
     padding-left: 472px;
@@ -128,9 +130,9 @@ image {
  }
 
  .main-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: block;
+    /*flex-direction: row;
+    align-items: center;*/
     gap: 10px;
     left: 636px;
     margin-bottom: 48px;
@@ -191,6 +193,10 @@ image {
 
 .section-team {
     background-color: #F4F4FD ;
+    /*width: 1440px;*/
+    height: 780px;
+    left: 0px;
+    top: 1668px;
 }
 
 .section-team-item {
@@ -227,13 +233,55 @@ image {
 .section-team-list {
     gap: 24px;
 }
+.section-team-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+
+    /*position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px;*/
+
+
+/* WHITE
+
+Header background, team card background
+*/
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 /*--Footer--*/
+
+.footer {
+    height: 312px;
+}
 
 .logo-footer-text {
     color: #F4F4FD;
 }
+.footer-text {
+    padding-top: 100px;
+    width: 264px;
+    height: 112px;
+}
 
+/*--Card Set---*/
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: (--indent)
+}
+.card-set-item {
+    flex-basis: calc((100%-72px)/4);
+
+}
 /*-----------PORTFOLIO-------------*/
 
 /*---logo---*/
@@ -293,9 +341,11 @@ image {
 /*---BUTTON---*/
 
 button {
+    display: flex;
     color: var(--button-color);
     background-color: var(--background-color);
     cursor: pointer;
+    gap: 24px;
 }
 
 .section-item-btn:hover, .section-item-btn:focus {
@@ -304,12 +354,15 @@ button {
 }
 
 .section-item-btn {
+    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
+   
 }
+
 
 /*---IMAGES---*/
  
