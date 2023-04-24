@@ -98,7 +98,8 @@ image {
     gap: 40px;
 }
 .address-container, .header-address-list{
-    display: flex;    
+    display: flex;  
+    gap: 40px;  
 }
 .container {
     width: 1158px;
