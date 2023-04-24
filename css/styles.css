@@ -141,10 +141,15 @@ image {
     margin-right: auto;
 
  }
+ button {
+    display: block;
+    min-width: 169px;
+ }
 
  .hero-container {
     text-align: center;
  }
+
 
 .main-btn:hover, .main-btn:focus {
     background: #404BBF;
@@ -214,7 +219,7 @@ image {
 
 .section-team {
     background-color: #F4F4FD ;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 780px;
     left: 0px;
     top: 1668px;
@@ -414,7 +419,8 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42
+    color: #2E2F42;
+    margin-bottom: 8px;
 }
 .img-text {
     line-height: 1.5;
