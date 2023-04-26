@@ -17,28 +17,30 @@ body {
     color: var(--text-color);
     background-color: var(--white-background-color);
     }
-/*h1,h2,h3,h4,h5,h6,p {
-    margin: 0;
-}*/
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .title {
     font-size: 36px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+.list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
 
-.list {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-    
-  /*  padding: 0;
-    margin: 0;*/
-}
 image {
     display: block;
 }
@@ -294,7 +296,7 @@ image {
 
 .link-logo {
    display: inline-block;
-   margin-bottom: 16px;
+  /* margin-bottom: 16px;*/
     
 }
 
@@ -302,19 +304,9 @@ image {
     color: #F4F4FD;
 }
 .footer-text {
-    width: 264px;
-    
-    
+    width: 264px;    
 }
 
-/*/*--Card Set---*/
-/*.card-set {
-    display: flex;
-    flex-wrap: wrap;
-    gap: (--indent)
-}
-.card-set-item {
-    flex-basis: calc((100%-72px)/4);*/
 
 
 /*-----------PORTFOLIO-------------*/
@@ -330,9 +322,10 @@ image {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    
 }
     
-    .logo-text {
+ .logo-text {
         color: #2E2F42;
 }
 
@@ -364,7 +357,7 @@ image {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    /*text-decoration: none;*/
+    
     color: #434455;
     gap: 40px;
 }
@@ -471,4 +464,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+
 }
