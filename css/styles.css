@@ -48,8 +48,6 @@ image {
 .container {
     width: 1128px;
     margin: 0 auto;
-   /* margin-left: 0 auto;
-    margin-right: 0 auto;*/
     padding: 0 15px;
 }
 
@@ -59,8 +57,6 @@ image {
     font-weight: 800;
     line-height: 1.17;
     font-style: normal;
-    
-   /* text-decoration: none;*/
 }
 
 .logo-text {
@@ -68,10 +64,6 @@ image {
 }
 
 .link-logo {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;*/
-    /*padding: 0px;*/
     margin-right: 76px;
    
 }
@@ -86,11 +78,12 @@ image {
     font-style: normal;
     text-decoration: none;
     color: #434455;
-    margin-right: 40px;
     gap: 40px;
     
 }
-
+.header-address-list {
+    gap: 40px;
+}
 .contacts:hover, .contacts:focus {
     color: #404bbf;
 }
@@ -98,22 +91,18 @@ image {
     display: flex;
     align-items: center;
     padding: 24px 0; 
-    justify-content: space-between; 
-    
+    justify-content: space-between;     
 }
 .header-nav-link {
     display: flex;
     align-items: center;
     margin-left: auto;
-    
     gap: 40px;
 }
-
 .container {
     margin: 0 auto;
     width: 1158px;
     padding: 0 15px;
-
 } 
 
 
@@ -132,10 +121,7 @@ image {
  .main-section {
     background-color: #2E2F42;
     color:#FFFFFF;  
-    padding: 188px 0;
-    
-   
-    
+    padding: 188px 0;    
 }
  .main-btn {
     font-family: "Roboto", sans-serif;
@@ -162,8 +148,7 @@ image {
  .hero-container {
     text-align: center;
  }
-
-
+ 
 .main-btn:hover, .main-btn:focus {
     background: #404BBF;
 }
@@ -174,7 +159,9 @@ image {
 .section {
     padding: 120px 0;
 }
-
+.section-title {
+    opacity: 0;
+ }
 .section-item {
     min-height: 104px;
     min-width: 264px;
@@ -202,9 +189,7 @@ image {
 
 .section-list {
     display: flex;
-    gap: 24px;
-    
-  
+    gap: 24px; 
 }
 
 .section-item-img {
@@ -262,7 +247,7 @@ image {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42; 
-    margin-bottom: 8px;  
+    margin-bottom: 8px;
 }
 
 .section-team-text {
@@ -302,7 +287,7 @@ image {
 
 .link-logo {
    display: inline-block;
-   margin-bottom: 16px;
+   
     
 }
 
@@ -374,6 +359,7 @@ image {
     font-style: normal;
     /*text-decoration: none;*/
     color: #434455;
+    gap: 40px;
 }
 
 .contacts:hover, .contacts:focus {
