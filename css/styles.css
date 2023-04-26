@@ -235,10 +235,6 @@ image {
 
 .section-team {
     background-color: #F4F4FD ;
-    
-    /*height: 780px;
-    left: 0px;
-    top: 1668px;*/
     padding: 120px 0;
 }
 
@@ -294,10 +290,17 @@ image {
     padding: 100px 0;
 }
 
-.link-logo {
-   display: inline-block;
-  /* margin-bottom: 16px;*/
-    
+.footer-link-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    margin-right: 76px;   
 }
 
 .logo-footer-text {
