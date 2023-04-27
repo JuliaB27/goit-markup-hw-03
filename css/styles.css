@@ -17,6 +17,7 @@ body {
     color: var(--text-color);
     background-color: var(--white-background-color);
     }
+
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
@@ -44,9 +45,11 @@ ul {
 image {
     display: block;
 }
+
 .button {
     cursor: pointer;
 }
+
 .container {
     width: 1128px;
     margin: 0 auto;
@@ -81,26 +84,30 @@ image {
     text-decoration: none;
     color: #434455;
     gap: 40px;
-    
 }
+
 .header-address-list {
     gap: 40px;
 }
+
 .contacts:hover, .contacts:focus {
     color: #404bbf;
 }
+
 .header-container, .header-nav{
     display: flex;
     align-items: center;
     padding: 24px 0; 
     justify-content: space-between;     
 }
+
 .header-nav-link {
     display: flex;
     align-items: center;
     margin-left: auto;
     gap: 40px;
 }
+
 .container {
     margin: 0 auto;
     width: 1158px;
@@ -133,7 +140,6 @@ image {
     letter-spacing: 0.04em;
     color: #ffffff;
     background: #4D5AE5;
-   
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
@@ -141,9 +147,7 @@ image {
     margin-right: auto;
     display: block;
     min-width: 169px;
-
 }
-
 
  .hero-container {
     text-align: center;
@@ -214,15 +218,14 @@ image {
     text-align: center;
     color: var(--sub-brand-color);
     margin: auto;
-    margin-bottom: 72px;   
+    padding-bottom: 72px;   
 }
 
 .section-list-img {
     gap: 24px;
 }
 
-.section-item-img {
-    
+.section-item-img {   
     width: calc((100%-48px)/3);
 }
 
@@ -234,6 +237,7 @@ image {
 /*--section-TEAM--*/
 
 .section-team {
+
     background-color: #F4F4FD ;
     padding: 120px 0;
 }
@@ -242,7 +246,8 @@ image {
     line-height: 1.11;
     text-align: center;
     color:#2e2f42;
-    margin-bottom: 72px;
+    /*margin-bottom: 72px;*/
+    padding-bottom: 72px;
 }
 
 .section-team-caption {
@@ -269,24 +274,25 @@ image {
 }
 
 .section-team-item {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;*/
+   /* align-items: center;*/
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-   
+    border-radius: 0px 0px 4px 4px; 
+    flex-basis: calc(100% - 72px / 4);  
 }
 .container-name {
     text-align: center;
-    padding: 32px 16px;
-    
+    padding: 32px 0px;    
 }
 
 /*--Footer--*/
 
 .footer {
+    background-color: #2E2F42;
+    text-decoration: none;
     padding: 100px 0;
 }
 
@@ -299,16 +305,20 @@ image {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
-    margin-right: 76px;   
+    color: #4D5AE5;    
 }
 
 .logo-footer-text {
     color: #F4F4FD;
 }
-.footer-text {
-    width: 264px;    
+
+.footer-text {line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    width: 264px; 
+       
 }
+
 
 
 
@@ -324,18 +334,18 @@ image {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
-    
+    color: #4D5AE5;    
 }
     
  .logo-text {
         color: #2E2F42;
 }
 
+
 /*---Header---*/
+
 .header {
-    border-bottom: 1px solid #e7e9fc;
-    
+    border-bottom: 1px solid #e7e9fc;    
 }
 
 .header-item-link {
@@ -352,15 +362,12 @@ image {
     color: #404bbf; 
 }
  
-
-
 .contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    
     color: #434455;
     gap: 40px;
 }
@@ -370,8 +377,9 @@ image {
 }
  
 .link {
-    text-decoration: none;
+   text-decoration: none;
 }
+
 
 /*---BUTTON---*/
 
@@ -381,9 +389,7 @@ image {
     padding: 96px 0 120px;
 }
 .button-list {
-    
     justify-content: center;
-    
     gap: 24px;
     margin-bottom: 72px;
 }
@@ -396,7 +402,6 @@ button {
     cursor: pointer;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    
 }
 
 .section-item-btn:hover, .section-item-btn:focus {
@@ -406,13 +411,11 @@ button {
 }
 
 .section-item-btn {
-    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.04em;
-   
+   letter-spacing: 0.04em;   
 }
 
 
@@ -441,31 +444,13 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    flex-basis: calc((100%-72px)/3);
-   
+    flex-basis: calc((100%-72px)/3);  
 }
-
 
 .container-img-text {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
-    margin-bottom: 8px;
     border-top: none;
-
 }
 
 
-/*--Footer--*/
-
-.footer {
-    background-color: #2E2F42;
-    text-decoration: none;
-}
-
-.footer-text {
-    
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-
-}
