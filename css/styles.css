@@ -122,7 +122,8 @@ image {
  .main-section {
     background-color: #2E2F42;
     color:#FFFFFF;  
-    padding: 188px 0;    
+    padding: 188px 0;   
+    max-width: 1440px; 
 }
  .main-btn {
     font-family: "Roboto", sans-serif;
@@ -173,6 +174,7 @@ image {
     min-width: 264px;   
 }
 
+
 .section-item-title {
     line-height: 1.2;
     font-weight: 500;
@@ -200,6 +202,8 @@ image {
     width: calc((100%-72px)/4);
 }
 
+
+
 /*---Section2---*/
 
 .section-pic-title {
@@ -217,6 +221,11 @@ image {
 .section-item-img {   
     width: calc((100%-48px)/3);
 }
+
+.section-pic {
+    padding-bottom: 120px;
+}
+
 
 /*--section-TEAM--*/
 
@@ -257,14 +266,14 @@ image {
 }
 
 .section-team-item {
-    background: #FFFFFF;
+  background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px; 
     flex-basis: calc(100% - 72px / 4);  
 }
 .container-name {
     text-align: center;
-    padding: 32px 16px;    
+    padding: 32px 0px;    
 }
 
 /*--Footer--*/
@@ -297,6 +306,13 @@ image {
     color: #F4F4FD;
     margin-right: 120px;   
 }
+
+
+
+    
+
+
+
 
 /*-----------PORTFOLIO-------------*/
 
